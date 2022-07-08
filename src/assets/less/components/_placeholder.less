@@ -1,0 +1,39 @@
+.loading {
+    position: relative !important;
+    background-color: #1f2029 !important;
+    height: 100%;
+    width: 100%;
+    
+    &::before {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #1f2029;
+        z-index: 1;
+    }
+
+    &::after {
+        display: block;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-100%);
+        background: -webkit-gradient(linear, left top, right top, from(#1f2029), color-stop(#6b6d88), to(#1f2029));
+        background: linear-gradient(90deg, #1f2029, #2b2c38, #1f2029);
+        animation: loading 1.4s infinite;
+        z-index: 2;
+    }
+}
+
+@keyframes loading {
+    100% {
+        transform: translateX(100%);
+    }
+}

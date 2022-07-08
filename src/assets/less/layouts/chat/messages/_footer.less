@@ -1,0 +1,54 @@
+.messages {
+    position: relative;
+    height: calc(100vh - 6rem);
+    .bottom {
+        position: absolute;
+        bottom: 2px;
+        width: 100%;
+        display:flex;
+    }
+    .emojies {
+        z-index: 1;
+        position: absolute;
+        bottom: 68px;
+        background-color: #282932;
+        width: 100%;
+        padding: 20px 30px;
+        overflow-x: auto;
+        user-select: none;
+        ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            padding-left: 0px;
+            li {
+                padding: 0px 10px;
+                cursor: pointer;
+            }
+        }
+    }
+    .footer {
+        border-top: 1px solid #282932;
+        background-color: #1f2029;
+        height: 68px;
+        display:flex;
+        align-items: center;
+        gap: 6px;
+        padding: 0px 8px;
+        z-index: 2;
+        input {
+            width: 100%;
+            background: none;
+            border: none;
+            color: #9596a4;
+            height: 100%;
+            outline: none;
+            font-family: inherit;
+            font-size: 1rem;
+            padding: 10px 20px;
+        }
+        .emoji {
+            background: none;
+        }
+    }
+}

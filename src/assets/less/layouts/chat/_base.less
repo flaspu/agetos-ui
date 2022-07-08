@@ -1,0 +1,21 @@
+.chat {
+    background-color: #1f2029;
+    transition: all .2s ease;
+    width: calc(100vw + 380px + 8rem);
+    border-radius: 10px;
+    margin-left: -380px;
+    border: 1px solid #282932;
+    box-shadow: rgba(1, 1, 1, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+    &.toggled {
+        width: calc(100vw - 380px - 8rem);
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    .chat {
+        width: calc(100vw - 380px - 8rem);
+        margin-left: 0px;
+    }
+}

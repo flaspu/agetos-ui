@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #90A4AE #CFD8DC;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #282932;
+    border-radius: 25rem;
+    border: 3px solid #1f2029;
+}
+::-webkit-scrollbar-track {
+    background: #1f2029;
+}
+
+body {
+    background: #17181f;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.chat-app {
+    padding: 3rem;
+}
+
+a {
+    color: @primary;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+._application {
+    display:flex;
+    height: calc(100vh - 6rem);
+    gap: 30px;
+}
+
+// Fonts
+@import url(./_fonts.less);
+
+// Components
+@import url(./components/_buttons.less);
+@import url(./components/_placeholder.less);
+@import url(./components/_input.less);
+
+// Sidebar
+@import url(./layouts/sidebar/_base.less);
+@import url(./layouts/sidebar/_topbar.less);
+@import url(./layouts/sidebar/_contacts.less);
+@import url(./layouts/sidebar/_footer.less);
+
+// Chat
+@import url(./layouts/chat/_base.less);
+@import url(./layouts/chat/welcomeScreen/_base.less);
+@import url(./layouts/chat/messages/_base.less);
+@import url(./layouts/chat/messages/_footer.less);
+
+// Sign in
+@import url(./layouts/sign-in/_base.less);
+
+// Branding
+@import url(./layouts/branding/_base.less);
+
+// Transitions
+@import url(./_transitions.less);
+
+// Navigation
+@import url(./layouts/_navigation.less);

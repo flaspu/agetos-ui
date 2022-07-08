@@ -1,0 +1,55 @@
+.contacts {
+    height: calc(100vh - 16rem);
+    overflow-y: auto;
+    .header {
+        padding: 14px 30px;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        h4 {
+            font-weight: 500;
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+        span {
+            text-transform: uppercase;
+            color: #666770;
+            font-size: 0.8rem;
+        }
+    }
+    .message {
+        margin: 0px 20px;
+        padding: 14px 10px;
+        display:flex;
+        border-radius: 8px;
+        gap: 10px;
+        transition: all .1s ease-in;
+        &:last-child {
+            border: none;
+        }
+        &.active {
+            background-color: lighten(#282932, 1%);
+        }
+        &:hover {
+            background-color: lighten(#282932, 10%);
+            cursor: pointer;
+        }
+        .avatar {
+            background: rgba(0, 0, 0, 0.234);
+            border-radius: 25rem;
+            width: 50px;
+            height: 50px;
+            background-position: center center;
+            background-size: 100%;
+        }
+        h4 {
+            font-weight: 400;
+            font-size: 1rem;
+            opacity: 0.7;
+        }
+        p {
+            font-size: 0.9rem;
+            color: rgb(115, 119, 130);
+        }
+    }
+}

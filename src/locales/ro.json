@@ -1,0 +1,23 @@
+{
+    "loginPage": {
+        "hero": {
+            "title": "AUTENTIFICA-TE PE ",
+            "subtitle": "Dacă nu deți deja un cont <br>Îți poți înregistra unul <a href='#'>aici</a>."
+        },
+        "inputs": {
+            "login": "Nume utilizator sau adresa de email",
+            "password": "Parola",
+            "button": "Autentificare",
+            "recover": "Recuprează parola"
+        }
+    },
+    "navbar": {
+        "branding": "Branding",
+        "support": "Suport"
+    },
+    "sidebar": {
+        "contacts": "Contacte",
+        "messages": "Mesaje",
+        "addContact": "Adaugă contact"
+    }
+}

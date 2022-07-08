@@ -1,0 +1,22 @@
+.sidebar {
+    min-width: 380px;
+    background-color: #1f2029;
+    padding-bottom: 10px;
+    transform: translateX(-98%);
+    position: relative;
+    user-select:none;
+    transition: all .2s ease;
+    border: 1px solid #282932;
+    border-radius: 10px;
+    overflow-y: hidden;
+    box-shadow: rgba(1, 1, 1, 0.2) 0px 7px 29px 0px;
+    &.toggled {
+        transform: translateX(0%);
+    }
+}
+
+@media screen and (min-width: 1180px) {
+    .sidebar {
+        transform: translateX(0%);
+    }
+}

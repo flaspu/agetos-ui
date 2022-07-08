@@ -1,0 +1,23 @@
+{
+    "loginPage": {
+        "hero": {
+            "title": "SIGN IN TO",
+            "subtitle": "If you don’t have an account <br>You can register one <a href='#'>here</a>."
+        },
+        "inputs": {
+            "login": "Username or Email address",
+            "password": "Password",
+            "button": "Sign In",
+            "recover": "Recover Password"
+        }
+    },
+    "navbar": {
+        "branding": "Branding",
+        "support": "Support"
+    },
+    "sidebar": {
+        "contacts": "Contacts",
+        "messages": "Messages",
+        "addContact": "Add contact"
+    }
+}

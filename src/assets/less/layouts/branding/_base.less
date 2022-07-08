@@ -1,0 +1,42 @@
+.branding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 164px;
+    .container {
+        display: flex;
+        width: calc(100vw - (18vw * 2));
+        flex-direction: column;
+        gap: 129px;
+        background-image: url('../../../media/saly/Saly-43.png');
+        background-repeat: no-repeat;
+        background-position: center top;
+        height: 100%;
+        .section {
+            margin-top: 76px;
+            height: 60px;
+            .title {
+                display: flex;
+                justify-content: space-between;
+                &:first-child {
+                    height: 60px;
+                    img {
+                        height: 60px;
+                    }
+                }
+            }
+            h4 {
+                font-family: 'MADE Soulmaze', sans-serif;
+                letter-spacing: 1px;
+                font-size: 48px;
+            }
+            p {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                margin-top: 16px;
+            }
+        }
+    }
+}
