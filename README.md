@@ -14,3 +14,7 @@ Agetos is a web-platform messaging service founded in 2022. It has no purpose. J
 
 -   [Install NodeJS 16+](https://nodejs.org/en/download/current/)
 -   [Install GIT](https://git-scm.com/downloads)
+
+### License
+
+Agetos is [MIT licensed](LICENSE).
